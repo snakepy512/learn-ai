@@ -5,7 +5,7 @@ const server = http.createServer((req, res) => {
   if (req.url === '/healthz') {
     res.statusCode = 200;
     res.setHeader('Content-Type', 'text/plain');
-    res.end("The server is healthy!");
+    res.end("Status is OK, The server is healthy!");
     return;
   }
 
