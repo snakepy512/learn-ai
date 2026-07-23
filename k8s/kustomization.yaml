@@ -10,5 +10,5 @@ resources:
 
 images:
   - name: cicd-demo
-    newName: cicd-demo
-    newTag: local
+    newName: ghcr.io/snakepy512/learn-ai
+    newTag: 59b18ae5113a0928506961c2cfe4f6aed6a27cdb
