@@ -18,7 +18,7 @@ spec:
       containers:
         - name: cicd-demo
           image: cicd-demo:local
-          imagePullPolicy: Never
+          imagePullPolicy: IfNotPresent
           ports:
             - name: http
               containerPort: 3000
